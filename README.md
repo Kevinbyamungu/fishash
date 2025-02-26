@@ -1,4 +1,4 @@
 # Ouverture du server
-bush ´´
+bush ´´´
 php -S localhost:8000 -t public
-´´
+´´´
