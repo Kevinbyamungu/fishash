@@ -1,4 +1,5 @@
 # Ouverture du server
-sh
+```bash
 php -S localhost:8000 -t public
+```
 
