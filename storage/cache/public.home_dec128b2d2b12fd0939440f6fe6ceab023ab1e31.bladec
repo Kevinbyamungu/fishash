@@ -32,7 +32,7 @@
  <a href="#"><button class="px-6 py-3 bg-black text-white font-semibold rounded-lg hover:bg-gray-800" >Shop Now</button></a>
  </div>
  <div class="w-1/2">
- <img src="../../public/assets/photo/Rectangle 6.png" alt="" class="rounded-lg shadow-lg" >
+ <img src="./assets/photo/Rectangle 6.png" alt="" class="rounded-lg shadow-lg" >
  </div>
  </div>
  </section>
