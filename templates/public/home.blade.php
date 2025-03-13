@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home</title>
     <script src="./assets/js/tailwindcss.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body class="bg-[#EEDDCC]">
     <header class="shadow-md" >
@@ -26,22 +27,24 @@
         </div>
     </header>
     <!-- section 1 -->
-    <section class="br-gradient-to-r from-gray-50 to-gray-200 py-16" >
-        <div class="container mx-auto flex items-center justify-between p-20">
+    <section class="br-gradient-to-r from-gray-50 to-gray-200" >
+        <div class="container mx-auto flex items-center justify-between p-16">
             <div class="w-1/2 ">
                 <h2 class="text-7xl font-serif font-bold mb-1">Find The Best Fashion Style For You</h2>
                 <p class="text-gray-600 mb-4 ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas voluptatibus recusandae quidem quis suscipit, perferendis illo consequatur explicabo pariatur, qui expedita dolores maxime blanditiis voluptates ratione consequuntur eos cum fugit.</p>
-                <a href="#"><button class="px-6 py-3 bg-black text-white font-semibold rounded-lg hover:bg-gray-800" >Shop Now</button></a>
+                <div class="bg-[url('')]">
+                    <a href="#"><button class="px-6 py-3 bg-black text-white font-semibold rounded-lg hover:bg-gray-800" >Shop Now</button></a>
+                </div>
             </div>
             <div class="w-1/2 pl-20">
-                <img src="./assets/photo/Rectangle 6r.png" alt="" class="rounded-lg shadow-lg" >
+                <img src="./assets/photo/Rectangle 6r.png" alt="" class="img-principal rounded-lg shadow-lg rounded-bl-[150px]" >
             </div>
         </div>
     </section>
     <!-- section 2 -->
-    <section class="bg-white py-16">
+    <section class="bg-white py-16 h-screen flex flex-col items-center">
         <div class="container mx-auto px-6">
-            <h2 class="text-4xl font-serif font-bold text-center">New Collection</h2>
+            <h2 class="text-4xl font-serif font-bold text-center py-2">New Collection</h2>
             <p class ="text-gray-600 mb-8 flex justify-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt doloremque saepe nam ratione doloribus minus</p>
             <div class="w-full max-w-[2500px] h-full min-h-[400px] bg-gray-100 p-6 rounded-lg shadow-lg flex flex-col md:flex-row items-center">
                 <div class="md:w-1/3 md:h-[350px]">
@@ -59,7 +62,7 @@
         </div>
     </section>
     <!-- section 3 -->
-    <section class="bg-gray-50 py-16">
+    <section class="bg-gray-50 py-32 h-screen flex flex-col items-center">
         <div class="container mx-auto px-6 flex flex-col md:flex-row items-center">
             <div class="md:w-1/10 flex justify-center"></div>
             <div class="md:w-8/10 flex justify-center">
@@ -76,7 +79,7 @@
         </div>
     </section>
     <!-- section 4 -->
-    <section class="bg-[#2C1915] py-16">
+    <section class="bg-[#2C1915] py-36 h-screen">
         <div class="container mx-auto px-6 flex flex-col md:flex-row items-center">
             <div class="md:w-1/3">
                 <h2 class="text-4xl font-serif font-bold text-white">Produits Populaires</h2><br>
@@ -185,15 +188,14 @@
                 <h3 class="text-lg font-semibold mt-2">Emma Smith</h3>
                 <div class="flex justify-center mt-6 space-x-2"></div>
             </div>
-        <!-- Partie que je n'arrive pas à faire --><!-- --------------------------------------------------------------------------------------------------------- -->
-        <div class="md:w-full h-1/2 flex justify-center items-center ">
-            <div class="flex space-x-2 ">
+        </div>
+        <div class="md:w-full h-1/2 flex justify-center items-center pt-8">
+            <div class="flex space-x-2">
                 <div class="w-3 h-3 bg-gray-300 rounded-full"></div>
                 <div class="w-3 h-3 bg-gray-700 rounded-full"></div>
                 <div class="w-3 h-3 bg-gray-300 rounded-full"></div>
             </div>
         </div>
-        <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------- -->
     </section>
 <!-- FOOTER -->
 <footer class="text-white">
